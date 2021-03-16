@@ -1,0 +1,36 @@
+html {
+font-size: 16px;
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+h1{
+    font-size: 3rem;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .ligne{
+        display: flex;
+        flex-direction: row;
+        .tuile{
+            width: 4rem;
+            height: 4rem;
+            border: 1px black solid;
+
+            .piece{
+                width: 4rem;
+                height: 4rem;
+            }
+        }
+        
+    }
+    
+    
+}
