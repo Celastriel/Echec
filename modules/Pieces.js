@@ -7,6 +7,11 @@ export default class Pieces{
 
     get getImg(){return this.img}
 
+    init(color){
+        this.x = Number(this.img.parentNode.classList[1].charAt(0));
+        this.y = Number(this.img.parentNode.parentNode.classList[1].charAt(0));
+        this.color = color
+    }
 
 }
 

@@ -23,7 +23,6 @@ h1{
             width: 4rem;
             height: 4rem;
             border: 1px black solid;
-
             .piece{
                 width: 4rem;
                 height: 4rem;
@@ -31,6 +30,11 @@ h1{
         }
         
     }
-    
-    
+}
+.dam{
+    background-color:gray
+}
+
+.target{
+    background-color: #7f9b78;
 }

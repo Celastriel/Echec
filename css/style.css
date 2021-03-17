@@ -49,4 +49,12 @@ h1 {
   width: 4rem;
   height: 4rem;
 }
+
+.dam {
+  background-color: gray;
+}
+
+.target {
+  background-color: #7f9b78;
+}
 /*# sourceMappingURL=style.css.map */

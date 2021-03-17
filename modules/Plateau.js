@@ -13,11 +13,12 @@ export default class Plateau{
             const ligne = [];
             const divHtml = document.createElement("div");
             divHtml.classList.add("ligne")
-            divHtml.classList.add(`ligne${i}`);
+            divHtml.classList.add(`${i}ligne`);
             for(let j=0;j<8;j++){
                 const tuile = document.createElement("div");
                 tuile.classList.add("tuile");
-                if(flag%2)tuile.style.backgroundColor = "gray"
+                tuile.classList.add(`${j}tuile`);
+                if(flag%2)tuile.classList.add("dam");
                 flag++;
                 ligne.push(tuile);
                 divHtml.appendChild(tuile);
